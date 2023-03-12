@@ -9,7 +9,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     /**
      * Constructor vacío
@@ -124,16 +124,16 @@ public class CCuenta {
      *
      * @return the double
      */
-    public double getTipoInterés() {
-        return tipoInterés;
+    public double getTipoInteres() {
+        return tipoInteres;
     }
 
     /**
      * Set tipo interés.
      *
-     * @param tipoInterés the tipo interés
+     * @param tipoInteres the tipo interés
      */
-    public void setTipoInterés(double tipoInterés) {
-        this.tipoInterés = tipoInterés;
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
     }
 }
